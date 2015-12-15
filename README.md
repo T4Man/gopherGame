@@ -11,3 +11,4 @@ Thanks to:
   AnimatedImages.org
   ClipArtPanda.com
   Caddyshack (the movie)
+  GifSoup.com
