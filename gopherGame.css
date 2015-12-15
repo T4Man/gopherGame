@@ -1,0 +1,198 @@
+body {
+  background-color: #C5DCE6;
+  color: black;
+  font-family: 'Lora', serif;
+}
+h1 {
+  font-size: 3em;
+  height: 15%;
+  background-color: #19BA19;
+  margin: inherit;
+  text-align: center;
+}
+footer {
+  font-size: 1.2em;
+   background-color: #D18D29;
+}
+strong {
+  font-size: 1.3em;
+}
+#rules {
+  max-width: 80%;
+  margin-left: 10%;
+}
+#playAgain {
+  font-size: .8em;
+  border: solid 3px #B23000;
+  margin-bottom: 10px;
+}
+#newGame {
+  font-size: .8em;
+  border: solid 3px #B23000;
+}
+.gF, strong {
+  color: #D14815;
+}
+.left {
+  font-size: 1.1em;
+  background-color: #98E392;
+  width: 20%;
+}
+.right {
+  font-size: 1em;
+  background-color: #98E392;
+   width: 30%;
+}
+.gopherFacts {
+  font-size: .75em;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+}
+.loser {
+  height: ;
+}
+.gameSection {
+  max-width: 400px;
+  font-size: 1.75em;
+}
+.boom {
+  margin-top: 30%;
+}
+#mainSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#gopherPic {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#message1 {
+  color: red;
+}
+#message2 {
+  color: red;
+  font-size: 1.5em;
+}
+.rise {
+  position:absolute;
+  top: 100%;
+  left: 30%;
+  background: #0000;
+  -webkit-animation: fly-gopher 5s linear;
+  -moz-animation: fly-gopher 5s linear;
+  -o-animation: fly-gopher 5s linear;
+  animation: fly-gopher 5s linear;
+}
+@-webkit-keyframes fly-gopher {
+  0% {
+  position:absolute;
+  top: 100%;
+  left: 30%;
+  }
+  25% {
+  position:absolute;
+  top: 70%;
+  left: 30%;
+  }
+  50% {
+  position:absolute;
+  top: 50%;
+  left: 30%;
+  }
+  75% {
+  position:absolute;
+  top: 30%;
+  left: 30%;
+  }
+  100% {
+  position:absolute;
+  top: -20%;
+  left: 30%;
+  }
+}
+@-moz-keyframes fly-gopher {
+  0% {
+  position:absolute;
+  top: 100%;
+  left: 30%;
+  }
+  25% {
+  position:absolute;
+  top: 70%;
+  left: 30%;
+  }
+  50% {
+  position:absolute;
+  top: 50%;
+  left: 30%;
+  }
+  75% {
+  position:absolute;
+  top: 30%;
+  left: 30%;
+  }
+  100% {
+  position:absolute;
+  top: -20%;
+  left: 30%;
+  }
+}
+@-o-keyframes fly-gopher {
+  0% {
+  position:absolute;
+  top: 100%;
+  left: 30%;
+  }
+  25% {
+  position:absolute;
+  top: 70%;
+  left: 30%;
+  }
+  50% {
+  position:absolute;
+  top: 50%;
+  left: 30%;
+  }
+  75% {
+  position:absolute;
+  top: 30%;
+  left: 30%;
+  }
+  100% {
+  position:absolute;
+  top: -20%;
+  left: 30%;
+  }
+}
+@keyframes fly-gopher {
+  0% {
+  position:absolute;
+  top: 100%;
+  left: 30%;
+  }
+  25% {
+  position:absolute;
+  top: 70%;
+  left: 30%;
+  }
+  50% {
+  position:absolute;
+  top: 50%;
+  left: 30%;
+  }
+  75% {
+  position:absolute;
+  top: 30%;
+  left: 30%;
+  }
+  100% {
+  position:absolute;
+  top: -20%;
+  left: 30%;
+  }
+}
+
