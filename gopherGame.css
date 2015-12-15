@@ -39,9 +39,9 @@ strong {
   width: 20%;
 }
 .right {
-  font-size: 1em;
+  font-size: 1.1em;
   background-color: #98E392;
-   width: 30%;
+  width: 30%;
 }
 .gopherFacts {
   font-size: .75em;
@@ -49,9 +49,6 @@ strong {
 .images {
   display: flex;
   flex-direction: row;
-}
-.loser {
-  height: ;
 }
 .gameSection {
   max-width: 400px;
@@ -64,6 +61,9 @@ strong {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+#subTitle {
+  text-align: center;
 }
 #gopherPic {
   display: flex;
