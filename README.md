@@ -10,5 +10,5 @@ Thanks to:
   SweetClipArt.com
   AnimatedImages.org
   ClipArtPanda.com
-  Caddyshack (the movie)
   GifSoup.com
+  and of course, Caddyshack (the movie).

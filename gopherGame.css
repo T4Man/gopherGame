@@ -3,6 +3,9 @@ body {
   color: black;
   font-family: 'Lora', serif;
 }
+.selected {
+  background-color: #98E392;
+}
 h1 {
   font-size: 3em;
   height: 15%;

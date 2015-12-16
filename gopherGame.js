@@ -64,7 +64,7 @@ $(function(){ //document ready function
 //---core game play function code----------------------------------------------
   //----capture click event on mound image----------------------------
   var playerGuess = function() {
-    $('#mound').click(function(event){
+    $('#mound').on('keypress click', function(event){
       var index = $('#mound').index(this);
       var whichMound = $(event.target).index();
       userClicks += 1;
@@ -135,7 +135,7 @@ $(function(){ //document ready function
   var addMounds = function(){
     $moundImgs = $('#mound');
     $.each(mounds, function(index, value){
-      $('<img />').attr('src', value).appendTo($moundImgs);
+      $('<img />').attr('src', value).appendTo($moundImgs).addClass('selected');
     });
   };
   addMounds();
