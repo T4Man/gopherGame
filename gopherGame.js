@@ -1,4 +1,5 @@
 $(function(){ //document ready function
+
 //----put user name in the aside---------------------------------
   $('#message1').hide();
   $('#message2').hide();
