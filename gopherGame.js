@@ -118,8 +118,6 @@ $(function(){ //document ready function
         }, 2200);
   //--- incorrect guess condition --------------------------------------
       } else if (whichMound !== gopher && userClicks === level) {
-        console.log(userClicks);
-        console.log(level);
         loser();
       } else {
         $(event.target).effect('pulsate');
@@ -140,5 +138,6 @@ $(function(){ //document ready function
     });
   };
   addMounds();
+  //console.log($moundImgs);
   playerGuess();
 });
