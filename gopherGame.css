@@ -80,6 +80,7 @@ strong {
   color: red;
   font-size: 1.5em;
 }
+/*--Flying gopher animation using keyframes with prefixes-------*/
 .rise {
   position:absolute;
   top: 100%;
