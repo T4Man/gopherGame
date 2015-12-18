@@ -138,6 +138,5 @@ $(function(){ //document ready function
     });
   };
   addMounds();
-  //console.log($moundImgs);
   playerGuess();
 });
