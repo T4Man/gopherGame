@@ -10,11 +10,11 @@ $(function(){ //document ready function
   }
   getUserName();
   //--- button same player plays again
-  $('#playAgain').click(function(){
+  $('#playAgainButton').click(function(){
     window.location.reload(true);
   });
   //--- button new player, new game
-  $('#newGame').click(function(){
+  $('#newGameButton').click(function(){
     location.href='start.html';
   });
 //----variable to hold user clicks--------------------------------
