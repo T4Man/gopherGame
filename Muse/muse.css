@@ -1,0 +1,66 @@
+#musePage {
+  background: #555 url('muse-images/globes.jpg');
+  background-size: contain;
+}
+.muse-header {
+  display: flex;
+  flex-direction: column;
+}
+.museMain {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10%;
+}
+#museLeft {
+  font-weight: bolder;
+  color: #000;
+  text-shadow: -1px 0 0 #EB330F;
+  max-width: 20%;
+}
+#museLeft ul {
+  list-style-type: none;
+}
+#startPageButton {
+  background-color: #BBB;
+  border: solid 3px black;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+#cfDiaryButton {
+  background-color: #BBB;
+  border: solid 3px black;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.museImages {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 5px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba 0000;
+}
+.footer p {
+  margin-left: 5%;
+}
+#audio {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3px;
+}
+#audio p {
+  color: #000;
+  text-shadow: -1px 0 0 #EB330F;
+  margin-top: 5px;
+}
