@@ -20,20 +20,6 @@
 #museLeft ul {
   list-style-type: none;
 }
-#startPageButton {
-  background-color: #BBB;
-  border: solid 3px black;
-  border-radius: 10px;
-  margin-top: 12px;
-  margin-left: 10px;
-}
-#cfDiaryButton {
-  background-color: #BBB;
-  border: solid 3px black;
-  border-radius: 10px;
-  margin-top: 12px;
-  margin-left: 10px;
-}
 img {
   max-width: 100%;
   height: auto;
@@ -41,7 +27,6 @@ img {
 .museImages {
   display: flex;
   flex-direction: column;
-
   margin-bottom: 5px;
 }
 .footer {

@@ -35,27 +35,6 @@ strong {
 .footer p {
   margin-left: 5%;
 }
-#startPageButton {
-  background-color: #BBB;
-  border: solid 3px #B23000;
-  border-radius: 10px;
-  margin-top: 12px;
-  margin-left: 10px;
-}
-#museButton {
-  background-color: #BBB;
-  border: solid 3px #B23000;
-  border-radius: 10px;
-  margin-top: 12px;
-  margin-left: 10px;
-}
-#cfDiaryButton {
-  background-color: #BBB;
-  border: solid 3px #B23000;
-  border-radius: 10px;
-  margin-top: 12px;
-  margin-left: 10px;
-}
 #cfMap {
   margin-top: 10px;
   margin-left: 15%;
