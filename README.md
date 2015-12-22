@@ -17,6 +17,7 @@ Thanks to:
   AnimatedImages.org
   ClipArtPanda.com
   GifSoup.com
+<<<<<<< HEAD
   Muse (Muse.mu)
   Code Fellows.org
   and of course, Caddyshack (the movie).
@@ -24,3 +25,6 @@ Thanks to:
   A work in progress....
 
   http://timali4man.com
+=======
+  and of course, Caddyshack (the movie).
+>>>>>>> 313662bc0df280a9d852fbf278af0e8ba9c509de

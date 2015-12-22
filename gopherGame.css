@@ -3,6 +3,9 @@ body {
   color: black;
   font-family: 'Lora', serif;
 }
+.selected {
+  background-color: #98E392;
+}
 h1 {
   font-size: 3em;
   height: 15%;
@@ -11,24 +14,73 @@ h1 {
   text-align: center;
 }
 footer {
-  font-size: 1.2em;
-   background-color: #D18D29;
+  display: flex;
+  flex-direction: row;
+  font-size: .9em;
+  background-color: #19BA19;
 }
 strong {
   font-size: 1.3em;
+}
+#startPageButton {
+  background-color: #BBB;
+  border: solid 3px #B23000;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+#museButton {
+  background-color: #BBB;
+  border: solid 3px #B23000;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+#cfDiaryButton {
+  background-color: #BBB;
+  border: solid 3px #B23000;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-left: 10px;
 }
 #rules {
   max-width: 80%;
   margin-left: 10%;
 }
-#playAgain {
+#playAgainButton {
   font-size: .8em;
   border: solid 3px #B23000;
+  border-radius: 10px;
   margin-bottom: 10px;
 }
-#newGame {
+#player{
+  max-width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+#newGameButton {
   font-size: .8em;
   border: solid 3px #B23000;
+  border-radius: 10px;
+}
+#cfLink {
+  margin-left: 20%;
+  padding: 0.5em;
+}
+#cfLink p, #museLink p {
+  font-size: 0.9em;
+  margin: 1px;
+  text-align: center;
+}
+#museLink {
+  padding: 0.5em;
+  margin-right: 18%;
+}
+.linkField {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #D1A95A;
 }
 .gF, strong {
   color: #D14815;
@@ -39,9 +91,9 @@ strong {
   width: 20%;
 }
 .right {
-  font-size: 1em;
+  font-size: 1.1em;
   background-color: #98E392;
-   width: 30%;
+  width: 30%;
 }
 .gopherFacts {
   font-size: .75em;
@@ -49,9 +101,6 @@ strong {
 .images {
   display: flex;
   flex-direction: row;
-}
-.loser {
-  height: ;
 }
 .gameSection {
   max-width: 400px;
@@ -65,6 +114,9 @@ strong {
   flex-direction: row;
   justify-content: space-between;
 }
+#subTitle {
+  text-align: center;
+}
 #gopherPic {
   display: flex;
   flex-direction: row;
@@ -72,11 +124,13 @@ strong {
 }
 #message1 {
   color: red;
+  font-size: 1.5em;
 }
 #message2 {
   color: red;
   font-size: 1.5em;
 }
+/*--Flying gopher animation using keyframes with prefixes-------*/
 .rise {
   position:absolute;
   top: 100%;
