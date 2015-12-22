@@ -1,4 +1,5 @@
 $(function(){ //document ready function
+
 //----put user name in the aside---------------------------------
   $('#message1').hide();
   $('#message2').hide();
@@ -9,11 +10,11 @@ $(function(){ //document ready function
   }
   getUserName();
   //--- button same player plays again
-  $('#playAgain').click(function(){
+  $('#playAgainButton').click(function(){
     window.location.reload(true);
   });
   //--- button new player, new game
-  $('#newGame').click(function(){
+  $('#newGameButton').click(function(){
     location.href='start.html';
   });
 //----variable to hold user clicks--------------------------------
@@ -64,7 +65,7 @@ $(function(){ //document ready function
 //---core game play function code----------------------------------------------
   //----capture click event on mound image----------------------------
   var playerGuess = function() {
-    $('#mound').click(function(event){
+    $('#mound').on('keypress click', function(event){
       var index = $('#mound').index(this);
       var whichMound = $(event.target).index();
       userClicks += 1;
@@ -117,8 +118,6 @@ $(function(){ //document ready function
         }, 2200);
   //--- incorrect guess condition --------------------------------------
       } else if (whichMound !== gopher && userClicks === level) {
-        console.log(userClicks);
-        console.log(level);
         loser();
       } else {
         $(event.target).effect('pulsate');
@@ -135,7 +134,7 @@ $(function(){ //document ready function
   var addMounds = function(){
     $moundImgs = $('#mound');
     $.each(mounds, function(index, value){
-      $('<img />').attr('src', value).appendTo($moundImgs);
+      $('<img />').attr('src', value).appendTo($moundImgs).addClass('selected');
     });
   };
   addMounds();
