@@ -26,5 +26,4 @@ Thanks to:
 
   http://timali4man.com
 =======
-  and of course, Caddyshack (the movie).
->>>>>>> 313662bc0df280a9d852fbf278af0e8ba9c509de
+  and of course, Caddyshack (the movie)
