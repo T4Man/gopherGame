@@ -17,7 +17,6 @@ Thanks to:
   AnimatedImages.org
   ClipArtPanda.com
   GifSoup.com
-<<<<<<< HEAD
   Muse (Muse.mu)
   Code Fellows.org
   and of course, Caddyshack (the movie).
